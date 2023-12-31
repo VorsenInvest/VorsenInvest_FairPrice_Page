@@ -59,7 +59,7 @@
 }
 .buttonbase {
   border-radius: var(--br-9xs);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   border: 1px solid var(--color-eta-lighter-65);
   box-sizing: border-box;
   height: 40px;

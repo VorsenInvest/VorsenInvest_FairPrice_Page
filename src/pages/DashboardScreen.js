@@ -1,6 +1,4 @@
 import OrderOverviewCardContainer from "../components/OrderOverviewCardContainer";
-import SalesOverviewCardContainer from "../components/SalesOverviewCardContainer";
-import FilteredForm from "../components/FilteredForm";
 import DashboardContainer from "../components/DashboardContainer";
 import PurityUiDashboardSidebarContai from "../components/PurityUiDashboardSidebarContai";
 import styles from "./DashboardScreen.module.css";
@@ -26,8 +24,6 @@ const DashboardScreen = () => {
             </div>
           </div>
           <OrderOverviewCardContainer />
-          <SalesOverviewCardContainer />
-          <FilteredForm />
           <div className={styles.analyticsCards}>
             <div className={styles.totalSales}>
               <div className={styles.text}>
