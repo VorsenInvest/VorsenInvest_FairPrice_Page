@@ -82,7 +82,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   border: 0.5px solid var(--gray-gray-200);
   box-sizing: border-box;
   overflow: hidden;

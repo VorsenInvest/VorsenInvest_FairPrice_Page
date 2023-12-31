@@ -112,7 +112,7 @@
   top: 0;
   left: 1218px;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   width: 382px;
   height: 80px;
@@ -157,7 +157,7 @@
   top: 0;
   left: 812px;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   width: 382px;
   height: 80px;
@@ -202,7 +202,7 @@
   top: 0;
   left: 406px;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   width: 382px;
   height: 80px;
@@ -247,7 +247,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   width: 382px;
   height: 80px;

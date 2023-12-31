@@ -108,7 +108,7 @@
   bottom: 9.44%;
   left: 7.34%;
   border-radius: var(--br-xs);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-5xs);
@@ -148,7 +148,7 @@
   height: 37.5px;
   text-align: left;
   font-size: var(--font-size-xs);
-  color: var(--base-color-white);
+  color: var(--blackampwhite-white);
   font-family: var(--regular-medium);
 }
 .icon2 {
@@ -181,7 +181,7 @@
 .signUpChild {
   top: 0;
   border-radius: var(--br-xs);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   width: 30px;
   height: 30px;
@@ -356,7 +356,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-mini);
-  background-color: var(--base-color-white);
+  background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
   height: 54px;
   color: var(--gray-gray-700);

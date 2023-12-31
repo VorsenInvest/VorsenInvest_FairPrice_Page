@@ -1,6 +1,4 @@
 import OrderOverviewCardContainer from "../components/OrderOverviewCardContainer";
-import SalesOverviewCardContainer from "../components/SalesOverviewCardContainer";
-import FilteredForm from "../components/FilteredForm";
 import DashboardContainer from "../components/DashboardContainer";
 import PurityUiDashboardSidebarContai from "../components/PurityUiDashboardSidebarContai";
 import styles from "./DashboardScreen.module.css";
@@ -26,8 +24,6 @@ const DashboardScreen = () => {
             </div>
           </div>
           <OrderOverviewCardContainer />
-          <SalesOverviewCardContainer />
-          <FilteredForm />
           <div className={styles.analyticsCards}>
             <div className={styles.totalSales}>
               <div className={styles.text}>
@@ -35,7 +31,7 @@ const DashboardScreen = () => {
                 <b className={styles.b}>$173,000</b>
                 <b className={styles.b1}>+8%</b>
               </div>
-              <img className={styles.icon} alt="" src="/icon@2x.png" />
+              <img className={styles.icon} alt="" src="/icon4@2x.png" />
             </div>
             <div className={styles.newClients}>
               <div className={styles.text1}>
@@ -43,7 +39,7 @@ const DashboardScreen = () => {
                 <b className={styles.b2}>+3,052</b>
                 <b className={styles.b3}>-14%</b>
               </div>
-              <img className={styles.icon} alt="" src="/icon@2x.png" />
+              <img className={styles.icon} alt="" src="/icon5@2x.png" />
             </div>
             <div className={styles.todaysUsers}>
               <div className={styles.text2}>
@@ -51,7 +47,7 @@ const DashboardScreen = () => {
                 <b className={styles.b4}>2,300</b>
                 <b className={styles.b5}>+5%</b>
               </div>
-              <img className={styles.icon} alt="" src="/icon@2x.png" />
+              <img className={styles.icon} alt="" src="/icon6@2x.png" />
             </div>
             <div className={styles.todaysMoney}>
               <div className={styles.text3}>
@@ -59,7 +55,7 @@ const DashboardScreen = () => {
                 <b className={styles.b6}>$53,000</b>
                 <b className={styles.b7}>+55%</b>
               </div>
-              <img className={styles.icon} alt="" src="/icon@2x.png" />
+              <img className={styles.icon} alt="" src="/icon7@2x.png" />
             </div>
           </div>
           <DashboardContainer />
