@@ -111,7 +111,7 @@ const OrderOverviewCardContainer = () => {
               <img
                 className={styles.avatarsGroup3Horizontal}
                 alt=""
-                src="/avatars-group-3-horizontal@2x.png"
+                src="/avatars-group-3-horizontal1@2x.png"
               />
               <b className={styles.redesignNewOnline}>
                 Redesign New Online Shop
@@ -136,7 +136,7 @@ const OrderOverviewCardContainer = () => {
                 </div>
                 <b className={styles.b3}>$400</b>
                 <AvatarsGroup3Horizontal
-                  avatarsGroup3HorizontalAv="/avatars-group-3-horizontal@2x.png"
+                  avatarsGroup3HorizontalAv="/avatars-group-3-horizontal2@2x.png"
                   avatarsGroup3HorizontalWidth="7.66%"
                   avatarsGroup3HorizontalHeight="95.83%"
                   avatarsGroup3HorizontalPosition="absolute"
@@ -172,7 +172,7 @@ const OrderOverviewCardContainer = () => {
                 <img
                   className={styles.avatarsGroup3Horizontal1}
                   alt=""
-                  src="/avatars-group-3-horizontal@2x.png"
+                  src="/avatars-group-3-horizontal3@2x.png"
                 />
                 <b className={styles.launchOurMobile}>Launch our Mobile App</b>
                 <img
@@ -198,7 +198,7 @@ const OrderOverviewCardContainer = () => {
                 <img
                   className={styles.avatarsGroup3Horizontal}
                   alt=""
-                  src="/avatars-group-3-horizontal@2x.png"
+                  src="/avatars-group-3-horizontal1@2x.png"
                 />
                 <b className={styles.fixPlatformErrors1}>Fix Platform Errors</b>
                 <img
@@ -224,7 +224,7 @@ const OrderOverviewCardContainer = () => {
                 <img
                   className={styles.avatarsGroup3Horizontal}
                   alt=""
-                  src="/avatars-group-3-horizontal@2x.png"
+                  src="/avatars-group-3-horizontal1@2x.png"
                 />
                 <b className={styles.addProgressTrack}>Add Progress Track</b>
                 <img
@@ -248,7 +248,7 @@ const OrderOverviewCardContainer = () => {
                 </div>
                 <b className={styles.b5}>$14,000</b>
                 <AvatarsGroup3Horizontal
-                  avatarsGroup3HorizontalAv="/avatars-group-3-horizontal@2x.png"
+                  avatarsGroup3HorizontalAv="/avatars-group-3-horizontal2@2x.png"
                   avatarsGroup3HorizontalWidth="74px"
                   avatarsGroup3HorizontalHeight="23px"
                   avatarsGroup3HorizontalPosition="absolute"
@@ -264,7 +264,7 @@ const OrderOverviewCardContainer = () => {
                 <img
                   className={styles.adobeXdCcIcon11}
                   alt=""
-                  src="/adobe-xd-cc-icon-1@2x.png"
+                  src="/adobe-xd-cc-icon-11@2x.png"
                 />
               </div>
             </div>
@@ -285,7 +285,7 @@ const OrderOverviewCardContainer = () => {
           <img
             className={styles.ioniconccheckmarkccircle}
             alt=""
-            src="/ioniconccheckmarkccircle@2x.png"
+            src="/ioniconccheckmarkccircle1@2x.png"
           />
           <b className={styles.projects}>Projects</b>
         </div>

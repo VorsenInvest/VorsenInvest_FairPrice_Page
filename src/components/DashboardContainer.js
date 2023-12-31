@@ -8,7 +8,7 @@ const DashboardContainer = () => {
         <div className={styles.inputwithaddons}>
           <div className={styles.autoAddedFrame}>
             <div className={styles.addon}>
-              <img className={styles.icon} alt="" src="/icon@2x.png" />
+              <img className={styles.icon} alt="" src="/icon8@2x.png" />
               <div className={styles.addons}>Addons</div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const DashboardContainer = () => {
         <img
           className={styles.ioniconnnotificationsdefaul}
           alt=""
-          src="/ioniconnnotificationsdefault@2x.png"
+          src="/ioniconnnotificationsdefault1@2x.png"
         />
       </div>
       <div className={styles.text}>

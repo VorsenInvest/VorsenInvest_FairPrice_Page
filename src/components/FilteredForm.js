@@ -81,7 +81,7 @@ const FilteredForm = () => {
             <img
               className={styles.ioniconaarrowforward}
               alt=""
-              src="/ioniconaarrowforward@2x.png"
+              src="/ioniconaarrowforward1@2x.png"
             />
           </div>
           <div className={styles.fromColorsCardsContainer}>

@@ -9,7 +9,7 @@ const PurityUiDashboardSidebarContai = () => {
           <img
             className={styles.backgroundIcon}
             alt=""
-            src="/background@2x.png"
+            src="/background1@2x.png"
           />
           <div className={styles.buttonbase}>
             <div className={styles.widthStructure}>
@@ -33,7 +33,7 @@ const PurityUiDashboardSidebarContai = () => {
             <div className={styles.pleaseCheckOur}>Please check our docs</div>
             <b className={styles.needHelp1}>Need help?</b>
           </div>
-          <img className={styles.icon2} alt="" src="/icon@2x.png" />
+          <img className={styles.icon2} alt="" src="/icon9@2x.png" />
         </div>
       </div>
       <div className={styles.menu}>
@@ -60,7 +60,7 @@ const PurityUiDashboardSidebarContai = () => {
           <img
             className={styles.ioniconrrocketsharp}
             alt=""
-            src="/ioniconppersondefault@2x.png"
+            src="/ioniconppersondefault1@2x.png"
           />
           <b className={styles.profile1}>Profile</b>
         </div>
@@ -79,7 +79,7 @@ const PurityUiDashboardSidebarContai = () => {
           <img
             className={styles.ioniconrrocketsharp}
             alt=""
-            src="/ioniconccarddefault@2x.png"
+            src="/ioniconccarddefault1@2x.png"
           />
           <b className={styles.billing1}>Billing</b>
         </div>
@@ -104,7 +104,7 @@ const PurityUiDashboardSidebarContai = () => {
       </div>
       <div className={styles.logo}>
         <b className={styles.purityUiDashboard}>PURITY UI DASHBOARD</b>
-        <img className={styles.icon3} alt="" src="/icon@2x.png" />
+        <img className={styles.icon3} alt="" src="/icon10@2x.png" />
       </div>
       <img className={styles.sidebarChild} alt="" src="/vector-6@2x.png" />
     </div>
