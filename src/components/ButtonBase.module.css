@@ -1,0 +1,72 @@
+.div {
+  position: relative;
+  line-height: 24px;
+}
+.icon {
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.text {
+  position: relative;
+  font-size: var(--regular-medium-size);
+  line-height: 150%;
+  font-family: var(--regular-medium);
+}
+.buttonBody,
+.heightStructure {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonBody {
+  overflow: hidden;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.heightStructure {
+  height: 48px;
+  align-items: center;
+}
+.content {
+  position: relative;
+  background-color: var(--color-silver);
+  width: 0;
+  height: 0;
+}
+.buttonbase,
+.minwidth,
+.widthStructure {
+  display: flex;
+  justify-content: flex-start;
+}
+.minwidth {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 35px;
+}
+.buttonbase,
+.widthStructure {
+  align-items: center;
+}
+.widthStructure {
+  overflow: hidden;
+  flex-direction: column;
+}
+.buttonbase {
+  border-radius: var(--br-9xs);
+  background-color: var(--base-color-white);
+  border: 1px solid var(--color-eta-lighter-65);
+  box-sizing: border-box;
+  height: 40px;
+  flex-direction: row;
+  padding: 0 16px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--blackampwhite-black);
+  font-family: var(--font-font-awesome-5-free);
+}

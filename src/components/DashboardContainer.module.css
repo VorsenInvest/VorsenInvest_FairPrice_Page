@@ -1,0 +1,176 @@
+.addons,
+.icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.icon {
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.addons {
+  line-height: 150%;
+  display: none;
+  align-items: center;
+  width: 24px;
+  height: 10.5px;
+}
+.addon,
+.autoAddedFrame {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.addon {
+  height: 20px;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 6.000000476837158px;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.autoAddedFrame {
+  align-self: stretch;
+  width: 37.5px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.typeHere {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 63.5px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.passwordTextIcon {
+  position: relative;
+  width: 35px;
+  height: 3.5px;
+  object-fit: cover;
+  display: none;
+}
+.content {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.inputfieldtext,
+.minwidth {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.minwidth {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 74.00000762939453px;
+}
+.inputfieldtext {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--gray-gray-400);
+}
+.inputwithaddons {
+  position: absolute;
+  height: 100%;
+  width: 59.4%;
+  top: 0;
+  right: 40.6%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--base-color-white);
+  border: 0.5px solid var(--gray-gray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ioniconppersondefault {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.listitemdefault,
+.signIn {
+  display: flex;
+  align-items: center;
+}
+.signIn {
+  position: relative;
+  line-height: 150%;
+  width: 66.5px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.listitemdefault {
+  position: absolute;
+  top: 11.5px;
+  left: 217px;
+  width: 58px;
+  height: 16px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xs);
+  color: var(--gray-gray-500);
+}
+.ioniconnnotificationsdefaul,
+.ioniconssettingssharp {
+  position: absolute;
+  top: 14px;
+  left: 294px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ioniconnnotificationsdefaul {
+  left: 323px;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 1223px;
+  width: 335px;
+  height: 39.5px;
+}
+.breadcrumb,
+.dashboard,
+.text {
+  position: absolute;
+  left: 0;
+  width: 73.5px;
+}
+.dashboard {
+  top: 23.5px;
+  line-height: 140%;
+  display: inline-block;
+  height: 19.5px;
+}
+.breadcrumb,
+.text {
+  top: 9px;
+  height: 43px;
+  font-size: var(--font-size-sm);
+  color: var(--gray-gray-700);
+}
+.breadcrumb {
+  top: 22.5px;
+  left: 48px;
+  width: 1558px;
+  height: 52px;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--blackampwhite-black);
+  font-family: var(--regular-medium);
+}

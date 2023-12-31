@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+5+Free:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --regular-medium: Helvetica;
+  --font-font-awesome-5-free: "Font Awesome 5 Free";
+
+  /* font sizes */
+  --regular-medium-size: 16px;
+  --font-size-3xl: 22px;
+  --bold-large-size: 18px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-2xs: 11px;
+  --font-size-3xs: 10px;
+  --font-size-6xs: 7px;
+
+  /* Colors */
+  --blackampwhite-black: #000;
+  --base-color-white: #fff;
+  --gray-gray-300: #cbd5e0;
+  --color-eta-lighter-65: #cecece;
+  --color-silver: #c4c4c4;
+  --blue-blue-500: #3182ce;
+  --color-whitesmoke: #f8f9fa;
+  --gray-gray-700: #2d3748;
+  --teal-teal-300: #4fd1c5;
+  --gray-gray-400: #a0aec0;
+  --gray-gray-500: #718096;
+  --gray-gray-200: #e2e8f0;
+  --green-green-400: #48bb78;
+  --red-red-500: #e53e3e;
+  --color-lightseagreen: #38b2ac;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-12xs: 1px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-12xs-5: 0.5px;
+  --padding-55xl: 74px;
+  --padding-9xs: 4px;
+  --padding-7xs: 6px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-mini: 15px;
+  --br-xs: 12px;
+  --br-11xs: 2px;
+  --br-7xs: 6px;
+}
