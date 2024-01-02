@@ -19,6 +19,31 @@ const OrderOverviewCardContainer = () => {
       </div>
       <div className={styles.firstCard}>
         <div className={styles.list} />
+        <div className={styles.list}>
+          {/* Table goes here */}
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Item 1</td>
+                <td>$50</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Item 2</td>
+                <td>$150</td>
+              </tr>
+              {/* Add more rows as needed */}
+            </tbody>
+          </table>
+        </div>
         <div className={styles.text1}>
           <div className={styles.doneThisMonthContainer}>
             <b>30 done</b>
@@ -31,6 +56,7 @@ const OrderOverviewCardContainer = () => {
           />
           <b className={styles.projects}>Projects</b>
         </div>
+
         <img className={styles.moreVertIcon} alt="" src="/more-vert@2x.png" />
       </div>
     </div>

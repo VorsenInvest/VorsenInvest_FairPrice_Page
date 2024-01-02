@@ -45,11 +45,19 @@
   height: 1295px;
 }
 .list {
+  width: 100%;
   position: absolute;
   top: 107px;
   left: 22.5px;
   width: 1012px;
   height: 380.5px;
+  padding: 0;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+.tableFullWidth {
+  width: 100%; /* Full width of the parent container */
+  /* Additional table styling if needed */
 }
 .doneThisMonthContainer,
 .projects {

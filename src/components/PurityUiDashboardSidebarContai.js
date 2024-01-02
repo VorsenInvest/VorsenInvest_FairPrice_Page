@@ -103,7 +103,7 @@ const PurityUiDashboardSidebarContai = () => {
         </div>
       </div>
       <div className={styles.logo}>
-        <b className={styles.purityUiDashboard}>PURITY UI DASHBOARD</b>
+        <b className={styles.purityUiDashboard}>VORSEN INVEST</b>
         <img className={styles.icon3} alt="" src="/icon10@2x.png" />
       </div>
       <img className={styles.sidebarChild} alt="" src="/vector-6@2x.png" />
