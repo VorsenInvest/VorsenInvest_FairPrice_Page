@@ -319,7 +319,6 @@
 }
 .tables:hover {
   display: flex;
-  animation: 1s ease 0s infinite normal none jello-horizontal;
   opacity: 1;
 }
 .dashboardChild {
@@ -344,7 +343,7 @@
   line-height: 150%;
   display: flex;
   align-items: center;
-  width: 63px;
+  width: 200px;
   height: 18px;
 }
 .dashboard,

@@ -12,20 +12,28 @@
 }
 .ioniconccheckmarkccircle {
   position: absolute;
-  top: 33px;
-  left: 0;
+  top: 45px;
+  left: 19.5px;
   width: 15px;
   height: 15px;
   overflow: hidden;
-  object-fit: cover;
 }
-.ordersOverview {
+.subtitle {
+  position: relative;
+  top: 45px;
+  margin-left: 19.5px;
+  font-size: var(--font-size-sm);
+  color: var(--green-green-400);
+  font-family: var(--regular-medium);
+}
+.filters {
   position: absolute;
-  top: 0;
-  left: 0;
-  font-size: var(--bold-large-size);
+  top: 31px;
+  left: 19.5px;
   line-height: 140%;
-  color: var(--gray-gray-700);
+  display: inline-block;
+  width: 121.5px;
+  height: 19.5px;
 }
 .secondCard,
 .text {
@@ -37,30 +45,29 @@
 }
 .secondCard {
   top: 0;
-  left: 1083px;
+  left: 1283px;
   border-radius: var(--br-mini);
   background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
-  width: 517px;
+  width: 300px;
   height: 1295px;
 }
-.list {
-  width: 100%;
+.listTickers {
   position: absolute;
   top: 107px;
   left: 22.5px;
-  width: 1012px;
+  width: 1212px;
   height: 380.5px;
-  padding: 0;
-  box-sizing: border-box;
-  flex-grow: 1;
 }
-.tableFullWidth {
-  width: 100%; /* Full width of the parent container */
-  /* Additional table styling if needed */
+.listFilters {
+  position: absolute;
+  top: 107px;
+  left: 22.5px;
+  width: 255px;
+  height: 380.5px;
 }
 .doneThisMonthContainer,
-.projects {
+.title {
   position: absolute;
   top: 31px;
   left: 19.5px;
@@ -69,9 +76,9 @@
   width: 121.5px;
   height: 19.5px;
 }
-.projects {
-  top: 0;
-  left: 0;
+.title {
+  top: 17.5px;
+  left: 19.5px;
   font-size: var(--bold-large-size);
   color: var(--gray-gray-700);
   width: 71.5px;
@@ -87,11 +94,10 @@
 }
 .moreVertIcon {
   top: 22.5px;
-  left: 1014.5px;
+  left: 1214.5px;
   width: 20px;
   height: 20px;
   overflow: hidden;
-  object-fit: cover;
 }
 .contentCards,
 .firstCard {
@@ -104,11 +110,11 @@
   border-radius: var(--br-mini);
   background-color: var(--blackampwhite-white);
   box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
-  width: 1055px;
+  width: 1255px;
   color: var(--gray-gray-400);
 }
 .contentCards {
-  top: 215px;
+  top: 117.5px;
   left: 31.5px;
   width: 1600px;
   text-align: left;
@@ -116,3 +122,11 @@
   color: var(--green-green-400);
   font-family: var(--regular-medium);
 }
+.subtitle {
+  left: 19.5px;
+  font-size: var(--font-size-sm);
+  color: var(--green-green-400);
+  font-family: var(--regular-medium);
+}
+
+

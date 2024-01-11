@@ -1,0 +1,181 @@
+/* Styles for the switch container */
+.container {
+  width: 255px; /* Set the fixed width */
+  display: flex; /* Use flex to ensure both elements are visible */
+  align-items: center; /* Vertically align the elements */
+  justify-content: flex-end; /* Align items to the right */
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* Styles for the switch container */
+.switch {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    width: 30px; /* Adjust the width */
+    height: 15px; /* Adjust the height */
+  }
+  
+  /* Styles for the checkbox (hidden) */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Styles for the slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    width: 100%; /* Set the width to 100% to fit within the container */
+    height: 100%; /* Set the height to 100% to fit within the container */
+    background-color: #ccc; /* Default background color */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 15px; /* Adjust the border-radius */
+    left: 0px;
+  }
+  
+  /* Styles for the slider's inner circle (knob) */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px; /* Adjust the height of the knob */
+    width: 12px; /* Adjust the width of the knob */
+    left: 2px; /* Adjust the left position */
+    bottom: 2px; /* Adjust the bottom position */
+    background-color: white; /* Default color of the knob */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  /* Rest of your styles remain the same */
+  
+  
+  
+  
+  /* Styles for the checked (on) state */
+  input:checked + .slider {
+    background-color: #2196F3; /* Change background color when checked */
+  }
+  
+  /* Styles for the checked (on) state of the knob */
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Styles for the labels (optional) */
+  .on-label, .off-label {
+    display: inline-block;
+    margin: 6px 10px;
+  }
+  
+  /* Style for the "on" label */
+  .on-label {
+    color: #2196F3; /* Text color for the "on" state */
+  }
+  
+  /* Style for the "off" label */
+  .off-label {
+    color: #ccc; /* Text color for the "off" state */
+  }
+  
+/* Style for the label */
+.label {
+  margin-left: 0px; /* Adjust the margin to position the label */
+  text-align: left; /* Align text to the left */
+}
+
+
+/* Styles for the "Maior Que" text */
+.biggerThan {
+  position: relative;
+  margin-left: 20px; /* Adjust the margin to position it beside the slider */
+  font-weight: bold; /* Apply a different style, such as bold */
+  color: #FF5733; /* Change the text color */
+}
+
+/* Style for the slider input */
+.sliderConfig {
+  width: 100%;
+  margin: 0 10px;
+}
+
+/* MyDualSlider.css */
+
+/* Adjust the width of the slider track */
+.rc-slider-track {
+  height: 6px; /* Set the height as needed */
+  background-color: #ccc; /* Set the background color as needed */
+  position: absolute;
+  top: 50%; /* Center the track vertically */
+  transform: translateY(-50%);
+  z-index: -1; /* Move the track below the handles */
+}
+
+/* MyDualSlider.css */
+
+/* Container for slider and values */
+/* MyDualSlider.css */
+
+/* MyDualSlider.css */
+
+/* Style the container for the slider and values */
+.slider-container {
+  position: relative;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Style the react-slider track and thumb */
+.ReactSlider {
+  position: relative;
+  width: 100%;
+  height: 6px; /* Adjust the height as needed */
+  background-color: #ccc;
+}
+
+.ReactSlider .slider-track {
+  position: absolute;
+  height: 100%;
+  background-color: #007bff; /* Adjust the track color as needed */
+}
+
+.ReactSlider .slider-thumb {
+  position: absolute;
+  width: 20px; /* Adjust the thumb width as needed */
+  height: 20px; /* Adjust the thumb height as needed */
+  background-color: #007bff; /* Adjust the thumb color as needed */
+  border: 2px solid #fff; /* Add border for the thumb */
+  border-radius: 50%;
+  cursor: grab;
+}
+
+/* Style the values below the slider */
+.slider-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px; /* Adjust the font size as needed */
+  padding-top: 10px; /* Adjust the padding as needed */
+}
+
+/* Style the minimum and maximum values */
+.min-value,
+.max-value {
+  flex: 1;
+  text-align: center;
+}
+
+/* Position the maximum value at the end */
+.max-value {
+  text-align: right;
+}

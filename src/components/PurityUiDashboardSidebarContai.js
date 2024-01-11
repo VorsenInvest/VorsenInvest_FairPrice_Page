@@ -1,6 +1,33 @@
-import styles from "./PurityUiDashboardSidebarContai.module.css";
+import styles from "./PurityUiDashboardSidebarContai.module.css"; // Import CSS module for styling.
+import React, { useState } from "react"; // Import React and useState hook from React library.
+import OrderOverviewCardContainer from "./OrderOverviewCardContainer"; // Import a custom component named OrderOverviewCardContainer.
 
 const PurityUiDashboardSidebarContai = () => {
+  // Define the state to hold the HTML content
+  const [htmlContent, setHtmlContent] = useState(""); // Initialize a state variable 'htmlContent' with default empty string.
+
+  // Define the function to fetch data from Flask
+  const fetchDataFromFlask = async () => { // Define an asynchronous function to fetch data.
+    try {
+      // Make a request to your Flask endpoint
+      const response = await fetch(
+        "https://vorsen-invest-fair-price-e93b96173314.herokuapp.com/fair_price_in_out",
+      ); // Fetch data from the specified Flask endpoint.
+
+      // Check if the response status is OK (200)
+      if (response.ok) {
+        // Get the HTML content from the response
+        const data = await response.text(); // Convert the response to text (HTML).
+
+        // Update the state with the HTML content
+        setHtmlContent(data); // Update the state 'htmlContent' with the fetched data.
+      } else {
+        console.error("Error fetching data:", response.status); // Log an error if the response status is not OK.
+      }
+    } catch (error) {
+      console.error("Error fetching data:", error); // Catch and log any errors during the fetch process.
+    }
+  };
   return (
     <div className={styles.sidebar}>
       <div className={styles.needHelp}>
@@ -83,7 +110,7 @@ const PurityUiDashboardSidebarContai = () => {
           />
           <b className={styles.billing1}>Billing</b>
         </div>
-        <button className={styles.tables}>
+        <button className={styles.tables} onClick={fetchDataFromFlask}>
           <div className={styles.signUpChild} />
           <img
             className={styles.ioniconrrocketsharp}
@@ -99,7 +126,7 @@ const PurityUiDashboardSidebarContai = () => {
             alt=""
             src="/ioniconhhomedefault@2x.png"
           />
-          <b className={styles.dashboard1}>Dashboard</b>
+          <b className={styles.dashboard1}>Dados dos Ativos</b>
         </div>
       </div>
       <div className={styles.logo}>

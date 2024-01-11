@@ -277,7 +277,7 @@
 .dashboardScreen {
   position: relative;
   background-color: var(--color-whitesmoke);
-  width: 100%;
+  width: 100vw;
   height: 1580px;
   text-align: left;
   font-size: var(--font-size-xs);

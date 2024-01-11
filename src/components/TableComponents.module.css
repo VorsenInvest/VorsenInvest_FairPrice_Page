@@ -1,0 +1,71 @@
+/* TableComponent.module.css */
+
+.tableContainer {
+  height: 1150px; /* Adjust to the height you want */
+  overflow-y: auto; /* This will add a vertical scrollbar when needed */
+}
+
+.table {
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: left;
+  }
+  
+  .headerCell {
+    padding: 12px 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .headerCell:hover {
+    background-color: #e6e6e6; /* Slightly darker shade for hover effect */
+  }
+  
+  .row {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .cell {
+    padding: 10px 15px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .row:hover {
+    background-color: #f5f5f5; /* Light grey background on hover */
+  }
+  
+  .active {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .inactive {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+  }
+  
+  .offline {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
+  .pagination {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Ensure to add any additional or specific styles you may need */
+  
